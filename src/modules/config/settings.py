@@ -38,8 +38,8 @@ class Settings:
     # Tarmac = firm, dirt = softer, gravel = softest. Off by default.
     enable_surface_brake: bool = False
     surface_brake_tarmac: float = 1.0         # multiplier on tarmac (1.0 = unchanged)
-    surface_brake_dirt: float = 0.7           # multiplier on dirt
-    surface_brake_gravel: float = 0.5         # multiplier on gravel/water
+    surface_brake_dirt: float = 0.5           # multiplier on dirt
+    surface_brake_gravel: float = 0.25        # multiplier on gravel/water
 
     # MARK: L2 ABS pulse
     # Vibrates when tire slip crosses thresholds under hard braking.

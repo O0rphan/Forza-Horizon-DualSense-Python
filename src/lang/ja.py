@@ -131,10 +131,10 @@ STRINGS = {
     "Gravel multiplier": "砂利乗数",
     "Softer brake on loose surfaces, firmer on tarmac.":
         "緩い路面ではブレーキが柔らかく、ターマックでは硬くなります。",
-    "1.0 = unchanged. Scales baseline and max force.":
-        "1.0 = 変更なし。ベースラインと最大力をスケールします。",
-    "Lower = softer brake on dirt. Default 0.7.":
-        "低い = ダートでより柔らかいブレーキ。デフォルト0.7。",
-    "Lower = softer brake on gravel/water. Default 0.5.":
-        "低い = 砂利/水でより柔らかいブレーキ。デフォルト0.5。",
+    "1.0 = unchanged. Scales final resistance force.":
+        "1.0 = 変更なし。最終抵抗力をスケールします。",
+    "Lower = softer brake on dirt. Default 0.5.":
+        "低い = ダートでより柔らかいブレーキ。デフォルト0.5。",
+    "Lower = softer brake on gravel/water. Default 0.25.":
+        "低い = 砂利/水でより柔らかいブレーキ。デフォルト0.25。",
 }

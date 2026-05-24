@@ -142,10 +142,10 @@ STRINGS = {
     "Gravel multiplier": "Множитель гравия",
     "Softer brake on loose surfaces, firmer on tarmac.":
         "Мягкий тормоз на рыхлых поверхностях, жёсткий на асфальте.",
-    "1.0 = unchanged. Scales baseline and max force.":
-        "1.0 = без изменений. Масштабирует базовое и макс. усилие.",
-    "Lower = softer brake on dirt. Default 0.7.":
-        "Ниже = мягче тормоз на грязи. По умолчанию 0.7.",
-    "Lower = softer brake on gravel/water. Default 0.5.":
-        "Ниже = мягче тормоз на гравии/воде. По умолчанию 0.5.",
+    "1.0 = unchanged. Scales final resistance force.":
+        "1.0 = без изменений. Масштабирует итоговое сопротивление.",
+    "Lower = softer brake on dirt. Default 0.5.":
+        "Ниже = мягче тормоз на грязи. По умолчанию 0.5.",
+    "Lower = softer brake on gravel/water. Default 0.25.":
+        "Ниже = мягче тормоз на гравии/воде. По умолчанию 0.25.",
 }

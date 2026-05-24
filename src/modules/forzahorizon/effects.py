@@ -153,8 +153,8 @@ class TriggerAnimations:
         handbrake = s.enable_handbrake_bonus and t["handbrake"]
         if not s.enable_brake_resistance:
             return rigid(s.handbrake_bonus) if handbrake else off()
-        baseline = s.brake_baseline_force
-        max_force = s.brake_max_force
+        force = _ramp(t["brake"], s.brake_deadzone, s.brake_baseline_force,
+                      s.brake_max_force, s.brake_curve, s.brake_wall_engage_at)
         if s.enable_surface_brake and t["brake"] > 0:
             wheels = DRIVEN_WHEELS.get(t["drive_train"], ("fl", "fr", "rl", "rr"))
             if any(t[f"wheel_in_puddle_{w}"] > 0 for w in wheels):
@@ -167,10 +167,8 @@ class TriggerAnimations:
                     mult = s.surface_brake_dirt
                 else:
                     mult = s.surface_brake_tarmac
-            baseline = int(baseline * mult)
-            max_force = int(max_force * mult)
+            force = max(0, int(force * mult))
         force = _ramp(t["brake"], s.brake_deadzone, baseline,
-                      max_force, s.brake_curve, s.brake_wall_engage_at)
         if handbrake:
             force += s.handbrake_bonus
         return rigid(force)
