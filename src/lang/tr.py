@@ -125,4 +125,17 @@ STRINGS = {
         "Bir dil seçin, ardından uygulamak için uygulamayı yeniden başlatın.",
     "Restart the app to apply the new language.":
         "Yeni dili uygulamak için uygulamayı yeniden başlatın.",
+    "Turbo lag": "Turbo gecikmesi",
+    "Turbo lag vibration": "Turbo gecikme titreşimi",
+    "Rumble speed (Hz)": "Gürültü hızı (Hz)",
+    "Rumble strength": "Gürültü gücü",
+    "Boost change sensitivity": "Boost değişim hassasiyeti",
+    "Brief R2 rumble when boost pressure climbs.":
+        "Boost basıncı yükselirken kısa R2 gürültüsü.",
+    "Deep rumble frequency. Default 8.":
+        "Derin gürültü frekansı. Varsayılan 8.",
+    "Max vibration amplitude. Default 40.":
+        "Maks titreşim genliği. Varsayılan 40.",
+    "Min boost delta per tick to trigger. Default 0.05.":
+        "Tetiklemek için tick başına min boost deltası. Varsayılan 0.05.",
 }

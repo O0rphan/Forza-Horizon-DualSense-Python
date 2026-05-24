@@ -136,4 +136,17 @@ STRINGS = {
         "Выберите язык, затем перезапустите приложение, чтобы применить его.",
     "Restart the app to apply the new language.":
         "Перезапустите приложение, чтобы применить новый язык.",
+    "Turbo lag": "Турбояма",
+    "Turbo lag vibration": "Вибрация турбоямы",
+    "Rumble speed (Hz)": "Скорость гула (Гц)",
+    "Rumble strength": "Сила гула",
+    "Boost change sensitivity": "Чувствительность изменения буста",
+    "Brief R2 rumble when boost pressure climbs.":
+        "Краткая вибрация R2 при росте давления наддува.",
+    "Deep rumble frequency. Default 8.":
+        "Глубокая частота гула. По умолчанию 8.",
+    "Max vibration amplitude. Default 40.":
+        "Макс. амплитуда вибрации. По умолчанию 40.",
+    "Min boost delta per tick to trigger. Default 0.05.":
+        "Мин. дельта буста за тик для срабатывания. По умолчанию 0.05.",
 }
