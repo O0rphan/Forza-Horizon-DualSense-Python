@@ -37,7 +37,7 @@ SETTING_SECTIONS = [
         ("enable_speed_throttle", "Speed-based throttle", None, None,
          "Extra resistance at low speed for precise control, lighter at high speed."),
         ("speed_throttle_boost", "Extra force at standstill", 0, 255,
-         "0 = off. Added to max force at 0 km/h, fading to normal."),
+         "0 = off. Flat resistance added at 0 km/h, fading to normal."),
         ("speed_throttle_fade_km", "Fade-out speed (km/h)", 0.0, 500.0,
          "Speed where boost fully fades. Default 80."),
     ]),

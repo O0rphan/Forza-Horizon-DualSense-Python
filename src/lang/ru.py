@@ -141,8 +141,8 @@ STRINGS = {
     "Fade-out speed (km/h)": "Скорость затухания (км/ч)",
     "Extra resistance at low speed for precise control, lighter at high speed.":
         "Доп. сопротивление на низкой скорости для точного контроля, легче на высокой.",
-    "0 = off. Added to max force at 0 km/h, fading to normal.":
-        "0 = выкл. Добавляется к макс. усилию при 0 км/ч, затухая до нормы.",
+    "0 = off. Flat resistance added at 0 km/h, fading to normal.":
+        "0 = выкл. Плоское сопротивление при 0 км/ч, затухая до нормы.",
     "Speed where boost fully fades. Default 80.":
         "Скорость, где усиление полностью затухает. По умолчанию 80.",
 }

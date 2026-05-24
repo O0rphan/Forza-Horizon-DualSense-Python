@@ -55,9 +55,9 @@ class Settings:
 
     # MARK: R2 speed-based throttle
     # Extra throttle resistance at low speed; fades as speed rises.
-    # boost=0 means off (no extra force). At 0 km/h: max_force+boost, fading to normal by fade_km.
+    # boost=0 means off (no extra force). Flat additive at 0 km/h, fading to normal by fade_km.
     enable_speed_throttle: bool = True
-    speed_throttle_boost: int = 0             # extra force added at standstill (0 = off)
+    speed_throttle_boost: int = 30            # extra force added at standstill (0 = off)
     speed_throttle_fade_km: float = 80.0     # speed where boost fully fades
 
     # MARK: R2 rev limiter

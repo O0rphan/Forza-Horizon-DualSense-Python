@@ -130,8 +130,8 @@ STRINGS = {
     "Fade-out speed (km/h)": "Sönme hızı (km/s)",
     "Extra resistance at low speed for precise control, lighter at high speed.":
         "Düşük hızda hassas kontrol için ekstra direnç, yüksek hızda daha hafif.",
-    "0 = off. Added to max force at 0 km/h, fading to normal.":
-        "0 = kapalı. 0 km/s'de maks kuvvete eklenir, normale kadar sönür.",
+    "0 = off. Flat resistance added at 0 km/h, fading to normal.":
+        "0 = kapalı. 0 km/s'de düz direnç eklenir, normale kadar sönür.",
     "Speed where boost fully fades. Default 80.":
         "Takviyenin tamamen söndüğü hız. Varsayılan 80.",
 }
