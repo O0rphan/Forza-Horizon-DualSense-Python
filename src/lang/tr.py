@@ -125,4 +125,16 @@ STRINGS = {
         "Bir dil seçin, ardından uygulamak için uygulamayı yeniden başlatın.",
     "Restart the app to apply the new language.":
         "Yeni dili uygulamak için uygulamayı yeniden başlatın.",
+    "Surface brake resistance": "Yüzey freni direnci",
+    "Tarmac multiplier": "Asfalt çarpanı",
+    "Dirt multiplier": "Toprak çarpanı",
+    "Gravel multiplier": "Çakıl çarpanı",
+    "Softer brake on loose surfaces, firmer on tarmac.":
+        "Gevşek yüzeylerde daha yumuşak fren, asfaltta daha sert.",
+    "1.0 = unchanged. Scales baseline and max force.":
+        "1.0 = değişmez. Temel ve maks kuvveti ölçekler.",
+    "Lower = softer brake on dirt. Default 0.7.":
+        "Düşük = toprakta daha yumuşak fren. Varsayılan 0.7.",
+    "Lower = softer brake on gravel/water. Default 0.5.":
+        "Düşük = çakıl/suda daha yumuşak fren. Varsayılan 0.5.",
 }

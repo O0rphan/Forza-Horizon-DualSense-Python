@@ -125,4 +125,16 @@ STRINGS = {
         "选择一种语言，然后重启应用以应用更改。",
     "Restart the app to apply the new language.":
         "重启应用以应用新语言。",
+    "Surface brake resistance": "路面刹车阻力",
+    "Tarmac multiplier": "柏油路倍率",
+    "Dirt multiplier": "泥土路倍率",
+    "Gravel multiplier": "碎石路倍率",
+    "Softer brake on loose surfaces, firmer on tarmac.":
+        "松散路面刹车更软，柏油路更硬。",
+    "1.0 = unchanged. Scales baseline and max force.":
+        "1.0 = 不变。缩放基线和最大力度。",
+    "Lower = softer brake on dirt. Default 0.7.":
+        "越低 = 泥土路刹车越软。默认0.7。",
+    "Lower = softer brake on gravel/water. Default 0.5.":
+        "越低 = 碎石/水面刹车越软。默认0.5。",
 }
